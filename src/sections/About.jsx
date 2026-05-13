@@ -19,7 +19,7 @@ export default function About() {
               {/* Real founder/studio image */}
               <img
                 src="/images/about.png"
-                alt="Lumina Studio — founder Aria Sharma"
+                alt="Related Interior Names — founder Aria Sharma"
                 className="w-full h-full object-cover"
               />
               {/* Warm dark overlay */}
@@ -71,7 +71,7 @@ export default function About() {
             <div className="space-y-5 reveal reveal-delay-1">
               <p className="font-body text-charcoal-soft leading-relaxed" style={{ lineHeight: '1.85' }}>
                 Founded by <strong className="font-medium text-charcoal">Aria Sharma</strong> in 2015,
-                Lumina Studio was born from a singular belief: that thoughtful design has the power
+                Related Interior Names was born from a singular belief: that thoughtful design has the power
                 to transform not just a space, but the lives within it.
               </p>
               <p className="font-body text-charcoal-soft leading-relaxed" style={{ lineHeight: '1.85' }}>
