@@ -38,7 +38,9 @@ export default function Navbar({ activeSection }) {
           onClick={() => scrollTo('#hero')}
           className="font-display text-xl font-light tracking-widest text-charcoal uppercase hover:text-sienna transition-colors duration-300"
           style={{ letterSpacing: '0.18em' }}
+        >
           Lumina Interior
+        </button>
 
         {/* Links */}
         <div className="flex items-center gap-8">
@@ -73,7 +75,9 @@ export default function Navbar({ activeSection }) {
           onClick={() => scrollTo('#hero')}
           className="font-display text-base font-light tracking-widest text-charcoal uppercase"
           style={{ letterSpacing: '0.14em' }}
+        >
           Lumina Interior
+        </button>
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="text-charcoal p-1"
