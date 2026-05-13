@@ -34,7 +34,7 @@ export default function Contact() {
             <div className="space-y-7 reveal reveal-delay-1">
               {[
                 { icon: <Phone size={18} strokeWidth={1.5} />, label: 'Phone', value: '+91 98765 43210', href: 'tel:+919876543210' },
-                { icon: <Mail size={18} strokeWidth={1.5} />, label: 'Email', value: 'hello@shridhainterior.com', href: 'mailto:hello@shridhainterior.com' },
+                { icon: <Mail size={18} strokeWidth={1.5} />, label: 'Email', value: 'hello@luminastudio.com', href: 'mailto:hello@luminastudio.com' },
                 { icon: <MapPin size={18} strokeWidth={1.5} />, label: 'Studio', value: '14/2, Kalyani Nagar, Pune — 411006\nMaharashtra, India' },
               ].map(({ icon, label, value, href }) => (
                 <div key={label} className="flex gap-5 items-start">

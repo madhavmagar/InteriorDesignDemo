@@ -38,9 +38,7 @@ export default function Navbar({ activeSection }) {
           onClick={() => scrollTo('#hero')}
           className="font-display text-xl font-light tracking-widest text-charcoal uppercase hover:text-sienna transition-colors duration-300"
           style={{ letterSpacing: '0.18em' }}
-        >
-          Shridha Interior
-        </button>
+          Lumina Studio
 
         {/* Links */}
         <div className="flex items-center gap-8">
@@ -75,9 +73,7 @@ export default function Navbar({ activeSection }) {
           onClick={() => scrollTo('#hero')}
           className="font-display text-base font-light tracking-widest text-charcoal uppercase"
           style={{ letterSpacing: '0.14em' }}
-        >
-          Shridha Interior
-        </button>
+          Lumina Studio
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="text-charcoal p-1"

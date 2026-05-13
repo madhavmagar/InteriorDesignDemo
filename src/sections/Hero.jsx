@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src="/images/hero.png"
-          alt="Luxury interior designed by Shridha Interior"
+          alt="Luxury interior designed by Lumina Studio"
           className="w-full h-full object-cover"
         />
         {/* Dark gradient overlay for text legibility */}
