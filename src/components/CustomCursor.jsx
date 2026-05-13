@@ -21,8 +21,8 @@ export default function CustomCursor() {
     };
 
     const animateFollower = () => {
-      followerX += (mouseX - followerX) * 0.12;
-      followerY += (mouseY - followerY) * 0.12;
+      followerX += (mouseX - followerX) * 0.3;
+      followerY += (mouseY - followerY) * 0.3;
       follower.style.left = `${followerX}px`;
       follower.style.top = `${followerY}px`;
       rafId = requestAnimationFrame(animateFollower);
