@@ -89,9 +89,9 @@ export default function Navbar({ activeSection }) {
 
       {/* ── Mobile Dropdown Menu ── */}
       {mobileOpen && (
-        <div className="fixed inset-0 z-40 bg-ivory/98 backdrop-blur-md flex flex-col items-center justify-center gap-8 md:hidden">
+        <div className="fixed inset-0 z-40 bg-ivory flex flex-col items-center justify-center gap-8 md:hidden">
           <button
-            className="absolute top-4 right-5 text-charcoal"
+            className="absolute top-5 right-5 text-charcoal"
             onClick={() => setMobileOpen(false)}
           >
             <X size={24} />
