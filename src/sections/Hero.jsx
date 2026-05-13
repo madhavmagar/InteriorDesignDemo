@@ -75,7 +75,7 @@ export default function Hero() {
               border: '1px solid rgba(245,240,232,0.5)', padding: '14px 32px',
               fontFamily: "'DM Sans', sans-serif", fontSize: '0.85rem',
               fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase',
-              borderRadius: '2px', cursor: 'none', transition: 'all 0.3s ease',
+              borderRadius: '2px', transition: 'all 0.3s ease',
             }}
             onMouseEnter={e => { e.currentTarget.style.background = 'rgba(245,240,232,0.15)'; e.currentTarget.style.borderColor = '#F5F0E8'; }}
             onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.borderColor = 'rgba(245,240,232,0.5)'; }}

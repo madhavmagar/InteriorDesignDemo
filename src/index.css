@@ -20,7 +20,6 @@
     background-color: #F5F0E8;
     color: #3A3A3A;
     line-height: 1.75;
-    cursor: none;
     overflow-x: hidden;
   }
 
@@ -31,51 +30,9 @@
 
   /* Hide default cursor on all interactive elements */
   a, button, [role="button"], input, textarea, select, label {
-    cursor: none;
   }
 }
 
-/* ── Custom Cursor ── */
-#custom-cursor {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 12px;
-  height: 12px;
-  background: #C4622D;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 99999;
-  transform: translate(-50%, -50%);
-  transition: width 0.25s ease, height 0.25s ease, background 0.25s ease, opacity 0.25s ease;
-  mix-blend-mode: multiply;
-}
-
-#cursor-follower {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 36px;
-  height: 36px;
-  border: 1px solid #C4622D88;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 99998;
-  transform: translate(-50%, -50%);
-  transition: left 0.12s ease, top 0.12s ease, width 0.25s ease, height 0.25s ease, opacity 0.25s ease;
-}
-
-body.cursor-hover #custom-cursor {
-  width: 48px;
-  height: 48px;
-  background: #C4622D22;
-  border: 1px solid #C4622D;
-  mix-blend-mode: normal;
-}
-
-body.cursor-hover #cursor-follower {
-  opacity: 0;
-}
 
 /* ── Scroll Animations ── */
 .reveal {
@@ -210,7 +167,6 @@ body.cursor-hover #cursor-follower {
   position: relative;
   overflow: hidden;
   border-radius: 4px;
-  cursor: none;
 }
 .portfolio-item .overlay {
   position: absolute;
@@ -345,7 +301,6 @@ body.cursor-hover #cursor-follower {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #3A3A3A;
-  cursor: none;
   transition: all 0.3s ease;
 }
 .filter-tab.active,
@@ -394,7 +349,6 @@ body.cursor-hover #cursor-follower {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   border-radius: 2px;
-  cursor: none;
   transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
   text-decoration: none;
 }
@@ -418,7 +372,6 @@ body.cursor-hover #cursor-follower {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   border-radius: 2px;
-  cursor: none;
   transition: all 0.3s ease;
   text-decoration: none;
 }

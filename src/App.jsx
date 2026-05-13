@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import CustomCursor from './components/CustomCursor';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './sections/Hero';
@@ -40,7 +39,6 @@ function App() {
 
   return (
     <>
-      <CustomCursor />
       <Navbar activeSection={activeSection} />
 
       <main>
