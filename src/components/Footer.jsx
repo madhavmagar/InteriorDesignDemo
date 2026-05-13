@@ -100,7 +100,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-6">
           <p className="font-body text-ivory/30 text-xs">
-            © 2025 Lumina Interior. All Rights Reserved.
+            © 2025 Shridha Interior. All Rights Reserved.
           </p>
           <p className="font-body text-ivory/20 text-xs flex items-center gap-1">
             Made with <Heart size={10} fill="#D4A853" stroke="none" className="text-gold" /> in Pune, India

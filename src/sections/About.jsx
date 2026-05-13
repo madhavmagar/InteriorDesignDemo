@@ -19,7 +19,7 @@ export default function About() {
               {/* Real founder/studio image */}
               <img
                 src="/images/about.png"
-                alt="Lumina Interior — founder Aria Sharma"
+                alt="Shridha Interior studio — founder Shridha Mehta"
                 className="w-full h-full object-cover"
               />
               {/* Warm dark overlay */}
@@ -32,7 +32,7 @@ export default function About() {
                 </p>
                 <div className="h-px w-12 bg-gold mb-3" />
                 <p className="font-body text-ivory/70 text-sm tracking-widest uppercase" style={{ letterSpacing: '0.12em' }}>
-                  Aria Sharma, Founder
+                  Shridha Mehta, Founder
                 </p>
               </div>
 
@@ -70,8 +70,8 @@ export default function About() {
 
             <div className="space-y-5 reveal reveal-delay-1">
               <p className="font-body text-charcoal-soft leading-relaxed" style={{ lineHeight: '1.85' }}>
-                Founded by <strong className="font-medium text-charcoal">Aria Sharma</strong> in 2015,
-                Lumina Interior was born from a singular belief: that thoughtful design has the power
+                Founded by <strong className="font-medium text-charcoal">Shridha Mehta</strong> in 2015,
+                Shridha Interior was born from a singular belief: that thoughtful design has the power
                 to transform not just a space, but the lives within it.
               </p>
               <p className="font-body text-charcoal-soft leading-relaxed" style={{ lineHeight: '1.85' }}>

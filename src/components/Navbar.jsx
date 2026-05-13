@@ -39,7 +39,7 @@ export default function Navbar({ activeSection }) {
           className="font-display text-xl font-light tracking-widest text-charcoal uppercase hover:text-sienna transition-colors duration-300"
           style={{ letterSpacing: '0.18em' }}
         >
-          Lumina Interior
+          Shridha Interior
         </button>
 
         {/* Links */}
@@ -76,7 +76,7 @@ export default function Navbar({ activeSection }) {
           className="font-display text-base font-light tracking-widest text-charcoal uppercase"
           style={{ letterSpacing: '0.14em' }}
         >
-          Lumina Interior
+          Shridha Interior
         </button>
         <button
           onClick={() => setMobileOpen(!mobileOpen)}

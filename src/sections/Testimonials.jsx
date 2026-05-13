@@ -4,7 +4,7 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 const testimonials = [
   {
     quote:
-      "Working with Lumina Interior was unlike any experience we've had before. They didn't just design our home — they understood our way of life and expressed it beautifully through every space.",
+      "Working with Shridha Interior was unlike any experience we've had before. They didn't just design our home — they understood our way of life and expressed it beautifully through every space.",
     name: 'Priya & Rohan Kulkarni',
     city: 'Pune, Maharashtra',
     project: 'Koregaon Villa',
@@ -22,7 +22,7 @@ const testimonials = [
   },
   {
     quote:
-      "Lumina Interior's Vastu expertise transformed our home from a house into a sanctuary. We feel the difference every single day — it's peaceful, productive, and utterly beautiful.",
+      "Shridha's Vastu expertise transformed our home from a house into a sanctuary. We feel the difference every single day — it's peaceful, productive, and utterly beautiful.",
     name: 'Meera Sundaram',
     city: 'Chennai, Tamil Nadu',
     project: 'Emerald Bay Apartment',
